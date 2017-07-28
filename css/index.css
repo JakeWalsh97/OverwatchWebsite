@@ -1,0 +1,156 @@
+.navbar-default {
+    border-bottom: .4em solid white;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/home/nav.jpg');
+}
+
+#brand {
+    color: #FFBC1E;
+}
+
+#link {
+    color:black;
+}
+
+#welcome {
+    border-bottom: .4em solid white;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-bottom:10em;
+    background-image: url('../img/home/welcome.jpg');
+}
+
+.jumbotron h1.small {
+    line-height: 88px;
+    border-width: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 62px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #FFBC1E;
+    -webkit-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
+    -moz-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
+    -ms-filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.4));
+}
+
+#intro {
+    border-bottom: .4em solid white;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/home/intro.png');
+}
+
+#service {
+    border-bottom: .4em solid white;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/home/gameplay.jpg');
+}
+
+.service-box {
+    border: .15em solid #FFBC1E;
+    padding:1em;
+    background-color:black;
+}
+
+#gamemodeImg {
+    border: .01em solid #FFBC1E;
+}
+
+#portfolio {
+    border-bottom: .4em solid white;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/home/maps.jpg');
+}
+
+#mapImg {
+    border:.10em solid white;
+}
+
+#mapImgBlack {
+    border:.10em solid black;
+}
+
+#characters {
+    border-bottom: .4em solid white;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/home/characters.png');
+}
+
+#offense {
+    background-color:white;
+}
+
+#tank {
+    background-color:black;
+}
+
+#defense {
+    background-color:white;
+}
+
+#healer {
+    background-color:black;
+}
+
+#footer {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../img/home/footer.png');
+}

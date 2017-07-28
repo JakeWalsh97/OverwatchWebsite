@@ -1,0 +1,90 @@
+.header {
+    background: url('../img/doomfist/doomfistLogo.jpg') no-repeat fixed;
+    background-size: cover;
+    min-height: 630px;
+    position: relative;
+    border-bottom:.4em solid white;
+}
+
+.banner-text{
+	border-left: 5px solid black;
+	padding: 15px 40px;
+	color: #fff;
+	margin-top: 170px;
+}
+
+#about{
+	background: url('../img/doomfist/doomfist.gif') no-repeat;
+	background-size: cover;
+	margin-bottom: -3px;
+    width:100%; 
+}
+
+.title-text{
+	padding: 0px 25px 0px 0px;
+	border-right: 5px solid black;
+	font-size: 24px;
+    color:black;
+}
+
+.about-text p{
+	color: white;
+    margin-left:10em;
+}
+
+.abt-list li{
+    color:white;
+	padding: 5px 0px;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+
+.rating > span {
+  display: inline-flex;
+  position: relative;
+  width: 1.1em;
+}
+
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+#portfolio {
+    border-top: .4em solid white;
+    border-bottom: .4em solid white;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-bottom:10em;
+    background-image: url('../img/doomfist/doomfistImageBackground.jpg');
+}
+
+.footer {
+    border-top: .4em solid white;
+    border-bottom: .4em solid white;
+    position: relative;
+    width: 98%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-bottom:37.5em;
+    margin-left:.825em;
+    background-image: url('../img/doomfist/doomfistFooter.gif');
+}
