@@ -30,7 +30,7 @@
 								<img src="assets/images/nav-icon.png" class="img-responsive" alt="Collapsable Navbar">
 							</a>
 							<a id="brand" class="navbar-brand" href="index.html"><b>Home</b></a>
-                				<audio autoplay controls loop id="audio" style="margin-top:.75em; padding-left:2em; border-left:.15em solid white"><source src="music/tanks.mp3" type="audio/mpeg"></audio>
+                				<audio controls loop id="audio" onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 2000)" style="margin-top:.75em; padding-left:2em; border-left:.15em solid white"><source src="music/tanks.mp3" type="audio/mpeg"></audio>
 						</div>
 					</header>
 
@@ -208,6 +208,13 @@
 	<script src="assets/js/jquery.magnific-popup.min.js"></script>
 	
 	<script src="assets/js/script.js"></script>
+
+	<script>
+	window.onload = function() {
+    var backgroundAudio=document.getElementById("audio");
+    backgroundAudio.volume=0.15;
+}
+	</script>
 	
 </body>
 </html>

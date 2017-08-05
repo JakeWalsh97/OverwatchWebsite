@@ -1,0 +1,154 @@
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/dva/dvaLogo.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    border-bottom:.4em solid white;
+}
+
+.about {
+    border-bottom: .4em solid white;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-bottom:10em;
+    background-image: url(../img/dva/dvaGif.gif);
+}
+
+.lead {
+    font-style: normal;
+    border:.10em solid white;
+    background-color: hotpink;
+    width: 30%;
+    text-align: left;
+    color:black;
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.4;
+    padding:1em;
+}
+
+.abt-list li{
+    color:black;
+	padding: 5px 0px;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+
+.rating > span {
+  display: inline-flex;
+  position: relative;
+  width: 1.1em;
+}
+
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+.services {
+    border-bottom: .4em solid white;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-bottom:10em;
+    background-image: url(../img/dva/dvaAbilities.png);
+}
+
+.service-item {
+    border:.10em solid white;
+    background-color:hotpink;
+    padding:1em;
+}
+
+#abilityImg {
+    padding-left:2.75em;
+    width:150px;
+    height:80px;
+}
+
+.callout {
+    display: table;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    background: url(../img/dva/dvaGallery.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    border-bottom:.4em solid white;
+}
+
+.overlay-detail{
+	margin: 0 auto;
+}
+.overlay-detail a i {
+    text-align: center;
+    position: relative;
+    bottom: -20px;
+    font-size: 24px;
+    color: #fff;
+    width: 40px;
+	height: 40px;
+	border: 1px solid #fff;
+	line-height: 40px;
+	border-radius: 50%;
+}
+
+.portfolio {
+    display: table;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    background: url(../img/dva/dvaGallery.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    border-bottom:.4em solid white;
+}
+
+.portfolio-item {
+    border:.10em solid white;
+}
+
+.footer {
+    border-top: .4em solid white;
+    border-bottom: .4em solid white;
+    position: relative;
+    width: 98%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-bottom:37.5em;
+    margin-left:.825em;
+    background-image: url('../img/dva/dvaFooter.gif');
+}
