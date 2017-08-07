@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel='shortcut icon' type='image/x-icon' href='img/home/favicon.ico'/>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Overwatch - Reinhardt</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="charAssets2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="charAssets2/css/stylish-portfolio.css" rel="stylesheet">
+    <link href="charAssets2/css/reinhardt.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="charAssets2/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="index.html" onclick=$("#menu-close").click();>Home</a>
+            </li>
+            <li>
+                <a href="offense.html" onclick=$("#menu-close").click();>Offense</a>
+            </li>
+            <li>
+                <a href="tanks.html" onclick=$("#menu-close").click();>Tanks</a>
+            </li>
+            <li>
+                <a href="defense.html" onclick=$("#menu-close").click();>Defense</a>
+            </li>
+            <li>
+                <a href="support.html" onclick=$("#menu-close").click();>Support</a>
+            </li>
+            <li>
+                <audio controls loop id="audio" style="width:10em" onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 2000)"><source src="music/reinhardt.mp3" type="audio/mpeg"></audio>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1 style="color:black">Reinhardt</h1>
+            <h2 style="color:black">"Justice will be done."</h2>
+            <br>
+            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 style="color:white; text-align:left; padding-left:3.8em">Overview</h2>
+                    <div class="lead">
+                    <p><b>Reinhardt is a powerful Tank. His iconic ability Barrier Field allows him to shield allies and defend objectives, while his melee Rocket Hammer makes him a threat at close range. Charge allows him to charge and pin enemies, further enabling him to push and harass the front line.</p>
+                    <hr>
+                    <p>Clad in powered armor and swinging his hammer, Reinhardt leads a rocket-propelled charge across the battleground and defends his squadmates with a massive energy barrier.</b></p>
+                    <ul class="abt-list">
+                        <li><b>- Weapon: Rocket Hammer</b></li>
+                        <li><b>- Difficulty Rating:</b><div class="rating">
+                        <span>☆</span></p>
+                        </div></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2 style="color:black">Key Abilities</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <img src="charAssets2/img/reinhardt/rocketHammer.png" id="abilityImg" class="img-responsive" alt=""></a>
+                                <hr>
+                                <h3 style="color:black">
+                                    <strong>Rocket Hammer</strong>
+                                </h3>
+                                <p style="color:black">Reinhardt’s Rocket Hammer is an exemplary melee weapon, able to deal punishing damage in a wide arc with every swing.<br><br><br><br><br></p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <img src="charAssets2/img/reinhardt/barrier.png" id="abilityImg" class="img-responsive" alt=""></a>
+                                <hr>
+                                <h3 style="color:black">
+                                    <strong>Barrier Field</strong>
+                                </h3>
+                                <p style="color:black">Reinhardt projects a broad, forward-facing energy shield, which can absorb substantial damage before it is destroyed. Though Reinhardt can protect himself and his companions behind the shield, he cannot attack while sustaining it.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <img src="charAssets2/img/reinhardt/charge.png" id="abilityImg" class="img-responsive" alt=""></a>
+                                <hr>
+                                <h3 style="color:black">
+                                    <strong>Charge</strong>
+                                </h3>
+                                <p style="color:black">Reinhardt charges forth in a straight line, grabbing hold of enemies in his path. If he collides with a wall, foes he’s carrying suffer extreme damage.<br><br><br></p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <img src="charAssets2/img/reinhardt/earthshatter.png" id="abilityImg" class="img-responsive" alt=""></a>
+                                <hr>
+                                <h3 style="color:black">
+                                    <strong>Earthshatter</strong>
+                                </h3>
+                                <p style="color:black">Reinhardt forcefully slams his rocket hammer into the ground, knocking down and damaging all enemies in front of him.<br><br><br><br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Callout -->
+    <aside class="callout">
+        <div class="text-vertical-center">
+            <h1 style="color:white">Reinhardt Image Gallery</h1>
+            <div class="overlay-detail text-center">
+                  <a href="#portfolio"><i class="fa fa-angle-down"></i></a>
+              </div>
+        </div>
+    </aside>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="charAssets2/img/reinhardt/reinhardtImage1.jpg" target="_blank">
+                                    <img class="img-portfolio img-responsive" src="charAssets2/img/reinhardt/reinhardtImage1Thumb.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="charAssets2/img/reinhardt/reinhardtImage2.jpg" target="_blank">
+                                    <img class="img-portfolio img-responsive" src="charAssets2/img/reinhardt/reinhardtImage2Thumb.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="charAssets2/img/reinhardt/reinhardtImage3.jpg" target="_blank">
+                                    <img class="img-portfolio img-responsive" src="charAssets2/img/reinhardt/reinhardtImage3Thumb.jpg">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="charAssets2/img/reinhardt/reinhardtImage4.jpg" target="_blank">
+                                    <img class="img-portfolio img-responsive" src="charAssets2/img/reinhardt/reinhardtImage4Thumb.jpg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="row">   	
+		</div>
+  </footer>
+
+    <!-- jQuery -->
+    <script src="charAssets2/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="charAssets2/js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+    // Disable Google Maps scrolling
+    // See http://stackoverflow.com/a/25904582/1607849
+    // Disable scroll zooming and bind back the click event
+    var onMapMouseleaveHandler = function(event) {
+        var that = $(this);
+        that.on('click', onMapClickHandler);
+        that.off('mouseleave', onMapMouseleaveHandler);
+        that.find('iframe').css("pointer-events", "none");
+    }
+    var onMapClickHandler = function(event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+    $('.map').on('click', onMapClickHandler);
+
+    window.onload = function() {
+    var backgroundAudio=document.getElementById("audio");
+    backgroundAudio.volume=0.15;
+    }
+
+    </script>
+
+</body>
+
+</html>
