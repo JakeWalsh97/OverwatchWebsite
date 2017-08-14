@@ -1,0 +1,40 @@
+#brand {
+    font-size:2.5em;
+    color: #FFBC1E;
+}
+
+.slide1 {
+    margin-top:.1em;
+    background: url(../images/defenseSlide1.jpg);  
+}
+.slide2 {
+    margin-top:.1em;
+    background: url(../images/defenseSlide2.jpg);
+}
+.slide3 {
+    margin-top:.1em;
+    background: url(../images/defenseSlide3.jpg);
+}
+
+#charImg {
+    border:.20em solid white;
+}
+
+#bottom {
+    border:.4em solid white;
+}
+
+.testimonial {
+    border-top: .4em solid white;
+    border-bottom: .4em solid white;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-image: url('../images/hanzoQuoteDef.jpg');
+}
