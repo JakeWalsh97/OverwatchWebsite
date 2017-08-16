@@ -1,0 +1,142 @@
+#intro {
+    border-bottom:.4em solid white;
+}
+
+#about {
+    border-bottom: .4em solid white;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-bottom:10em;
+    background-image: url(../img/hanzo/about.jpg);
+}
+
+#overview {
+    border:.10em solid white;
+    background-color:royalblue;
+    padding:1em;
+}
+
+.heading {
+    color:white;
+}
+
+.lead {
+    color:white;
+}
+
+#gifCircle {
+    border:.10em solid white;
+    height:600px;
+    width:600px;
+}
+
+.abt-list li{
+    color:black;
+	padding: 5px 0px;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+
+.rating > span {
+  display: inline-flex;
+  position: relative;
+  width: 1.1em;
+}
+
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+#services {
+    border-bottom: .4em solid white;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-bottom:10em;
+    background-image: url(../img/hanzo/abilities.png);
+}
+
+.boxes {
+    border:.10em solid white;
+    background-color: royalblue;
+    padding:.5em;
+}
+
+#abilityImg {
+    height:60px;
+    width:100px;
+}
+
+#portfolio {
+    border-bottom: .4em solid white;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-bottom:10em;
+    background-image: url(../img/hanzo/gallery.png);
+}
+
+#thumb {
+    height:300px;
+    width:356px;
+}
+
+.box {
+    border:.10em solid white;
+}
+
+#text {
+    border-bottom: .4em solid white;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-bottom:10em;
+    background-image: url(../img/hanzo/text.jpg);
+}
+
+#footer {
+    border-bottom: .4em solid white;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-bottom:10em;
+    background-image: url(../img/hanzo/footer.gif);
+}
