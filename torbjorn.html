@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+  <link rel='shortcut icon' type='image/x-icon' href='img/home/favicon.ico'/>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Overwatch - Torbjorn</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap and Font Awesome css-->
+    <!-- we use cdn but you can also include local files located in css directory-->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Google fonts - Montserrat for headings, Cardo for copy-->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:400,700|Cardo:400,400italic,700">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="charAssets3/css/style.default.css" id="theme-stylesheet">
+    <!-- ekko lightbox-->
+    <link rel="stylesheet" href="charAssets3/css/ekko-lightbox.css">
+    <link rel="stylesheet" href="charAssets3/css/torbjorn.css">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="charAssets3/css/custom.css">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body data-spy="scroll" data-target="#navigation" data-offset="120">
+    <!-- navbar-->
+    <header class="header">
+          <div class="container">
+            <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#lauraMenu">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" style="margin-top:.5em" href="index.html">Home</a>
+              <audio controls loop id="audio" onloadeddata="var audioPlayer = this; setTimeout(function() { audioPlayer.play(); }, 2000)" style="margin-top:.5em; padding-left:2em; border-left:.15em solid white"><source src="music/torbjorn.mp3" type="audio/mpeg"></audio>
+            </div>
+            <div class="collapse navbar-collapse" id="lauraMenu">
+              <ul class="nav navbar-nav navbar-right navbar-border">
+                <li><a href="offense.html">Offense</a></li>
+                <li><a href="tanks.html">Tanks</a></li>
+                <li class="active"><a href="defense.html">Defense</a></li>
+                <li><a href="support.html">Support</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </header>
+    <!-- /.navbar-->
+    <!-- intro-->
+    <section id="intro" style="background-image: url('charAssets3/img/torbjorn/logo.png');" class="intro">      
+      <div class="overlay"></div>
+      <div class="content">
+        <div class="container clearfix">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2 col-sm-12">
+              <h1 style="text-align:center">Torbjorn</h1>
+              <p class="italic" style="text-align:center">"Build 'em up, break 'em down."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- intro end-->
+    <!-- about-->
+    <section id="about" class="text">
+      <div class="container">
+        <div class="row">
+          <div id="overview" class="col-md-6">
+            <h2 class="heading">Overview</h2>
+            <p class="lead">Overwatch possessed one of the most advanced armaments on the planet, which could be traced to the workshop of an ingenious engineer named Torbjörn Lindholm.</p>
+            <hr style="width:5em">
+            <p style="color:white">He is an engineer specializing in advanced weapon design and is determined to keep his inventions from falling into the wrong hands.</p>
+            <hr style="width:5em">
+            <p style="color:white">Torbjörn’s extensive arsenal includes a rivet gun and hammer, as well as a personal forge that he can use to build upgrade-able turrets and dole out protective armor packs.</p>
+            <hr style="width:5em">
+            <ul class="abt-list">
+                    <li style="color:white; text-align:left">Weapon: Rivet Gun</li>
+                    <li style="color:white; text-align:left">Difficulty Rating:<div class="rating">
+                    <span>☆</span><span>☆</span></p>
+                    </div></li>
+                </ul>
+          </div>
+          <div class="col-md-5 col-md-offset-1">
+            <p><img src="charAssets3/img/torbjorn/torbjornGif.gif" alt="" id="gifCircle" class="img-responsive img-circle"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about end-->
+    <!-- Services-->
+    <section id="services" style="background-color: #eee">
+      <div class="container">
+        <div class="row services">
+          <div class="col-md-12">
+            <h2 class="heading" style="text-align:center">Key Abilities</h2>
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="boxes">
+                  <div class="icon"><img src="charAssets3/img/torbjorn/gun.png" id="abilityImg" class="img-responsive" alt=""></a></div>
+                  <hr style="width:5em">
+                  <h4 style="color:white">Rivet Gun</h4>
+                  <p style="color:white">Torbjörn ejects molten metal from his gun in a short, close-range burst.<br><br><br></p>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="boxes">
+                  <div class="icon"><img src="charAssets3/img/torbjorn/turret.png" id="abilityImg" class="img-responsive" alt=""></a></div>
+                  <hr style="width:5em">
+                  <h4 style="color:white">Build Turret</h4>
+                  <p style="color:white">Torbjörn constructs an enemy-tracking autocannon. He can use his Forge Hammer to repair or upgrade it, increasing its health and adding a second cannon barrel.</p>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="boxes">
+                  <div class="icon"><img src="charAssets3/img/torbjorn/armor.png" id="abilityImg" class="img-responsive" alt=""></a></div>
+                  <hr style="width:5em">
+                  <h4 style="color:white">Armor pack</h4>
+                  <p style="color:white">Torbjörn deploys an armor upgrade; either he or his allies can pick it up to absorb some damage.<br><br><br></p>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="boxes">
+                  <div class="icon"><img src="charAssets3/img/torbjorn/molten.png" id="abilityImg" class="img-responsive" alt=""></a></div>
+                  <hr style="width:5em">
+                  <h4 style="color:white">Molten Core</h4>
+                  <p style="color:white">After overheating his personal forge, Torbjörn gains a significant amount of armor and scrap. He also attacks (and builds and repairs turrets) far faster than normal.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services end-->
+    
+    <!-- Portfolio / gallery-->
+    <section id="portfolio" class="gallery">
+      <div class="container clearfix">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-12 col-lg-12">
+                <h2 class="heading" style="text-align:left">Torbjorn Image Gallery</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="box"><a href="charAssets3/img/torbjorn/image1.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Gallery image 1" data-footer="Torbjorn running"><img src="charAssets3/img/torbjorn/image1.jpg" id="thumb"alt="" class="img-responsive"></a></div>
+              </div>
+              <div class="col-sm-4">
+                <div class="box"><a href="charAssets3/img/torbjorn/image2.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Gallery image 2" data-footer="Torbjorn turret"><img src="charAssets3/img/torbjorn/image2.jpg" id="thumb"alt="" class="img-responsive"></a></div>
+              </div>
+              <div class="col-sm-4">
+                <div class="box"><a href="charAssets3/img/torbjorn/image3.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Gallery image 3" data-footer="Molten core"><img src="charAssets3/img/torbjorn/image3.jpg" id="thumb"alt="" class="img-responsive"></a></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="box"><a href="charAssets3/img/torbjorn/image4.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Gallery image 4" data-footer="Torbjorn aiming"><img src="charAssets3/img/torbjorn/image4.jpg" id="thumb"alt="" class="img-responsive"></a></div>
+              </div>
+              <div class="col-sm-4">
+                <div class="box"><a href="charAssets3/img/torbjorn/image5.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Gallery image 5" data-footer="Molten core 2"><img src="charAssets3/img/torbjorn/image5.jpg" id="thumb"alt="" class="img-responsive"></a></div>
+              </div>
+              <div class="col-sm-4">
+                <div class="box"><a href="charAssets3/img/torbjorn/image6.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Gallery image 6" data-footer="Torbjorn Christmas"><img src="charAssets3/img/torbjorn/image6.jpg" id="thumb"alt="" class="img-responsive"></a></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="box"><a href="charAssets3/img/torbjorn/image7.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Gallery image 7" data-footer="Torbjorn turret 2"><img src="charAssets3/img/torbjorn/image7.jpg" id="thumb"alt="" class="img-responsive"></a></div>
+              </div></a>
+              <div class="col-sm-4">
+                <div class="box"><a href="charAssets3/img/torbjorn/image8.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Gallery image 8" data-footer="Torbjorn aiming 2"><img src="charAssets3/img/torbjorn/image8.jpg" id="thumb"alt="" class="img-responsive"></a></div>
+              </div></a>
+              <div class="col-sm-4">
+                <div class="box"><a href="charAssets3/img/torbjorn/image9.jpg" title="" data-toggle="lightbox" data-gallery="portfolio" data-title="Gallery image 9" data-footer="Torbjorn shouting"><img src="charAssets3/img/torbjorn/image9.jpg" id="thumb"alt="" class="img-responsive"></a></div>
+              </div></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio / gallery end-->
+    <!-- text page-->
+    <section id="text" class="text-page section-inverse">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="heading">A brief history</h2>
+            <div class="row">
+              <div class="col-sm-6">
+                <p>Before the Omnic Crisis, Torbjörn had gained notoriety for designing weapons systems used by countries around the world. However, his belief that technology must serve a better vision for humanity put him at odds with his employers, who desired to control his weapons using networked computer intelligence.</p>
+                <p>Torbjörn had a deep mistrust of sentient robotic intelligence, and while many of his peers wrote this off as paranoia, his worst fears were realized when the robot populations of the world turned against their human creators during the Omnic Crisis.</p>
+              </div>
+              <div class="col-sm-6">
+                <p>Because of his engineering genius, he was recruited to join the original Overwatch strike team, and his many inventions proved integral to ending the crisis. In the years that followed, Overwatch became an international peacekeeping force, and Torbjörn remained a critical resource for all of its technological needs and signature weapons systems.</p>
+                <p>But in the aftermath of Overwatch's fall, many of Torbjörn's weapons were stolen or stashed away around the world. Feeling responsible for his creations, Torbjörn is determined to stop them from falling into the wrong hands and wreaking havoc on the innocent.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- text page end-->
+    <footer id="footer" class="section-inverse">
+      <div class="container"> 
+          <div class="col-md-12">
+            <p>
+            <br><br><br>
+            <br><br><br>
+            <br><br><br>
+            <br><br><br>
+            <br><br><br>
+            <br><br><br>
+            <br><br><br>
+            </p>
+          </div>
+      </div>
+    </footer>
+    <!-- Javascript files-->
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')</script>
+    <!-- Bootstrap CDN-->
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- jQuery Cookie - For Demo Purpose-->
+    <script src="charAssets3/js/jquery.cookie.js"></script>
+    <!-- Lightbox-->
+    <script src="charAssets3/js/ekko-lightbox.js"> </script>
+    <!-- Sticky + Scroll To scripts for navbar-->
+    <script src="charAssets3/js/jquery.sticky.js"></script>
+    <script src="charAssets3/js/jquery.scrollTo.min.js"></script>
+    <!-- google maps-->
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;amp;sensor=false"></script>
+    <script src="charAssets3/js/gmaps.js"></script>
+    <!-- main script-->
+    <script src="charAssets3/js/front.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.-->
+
+    <script>
+	window.onload = function() {
+    var backgroundAudio=document.getElementById("audio");
+    backgroundAudio.volume=0.15;
+  }
+	</script>
+
+  </body>
+</html>
