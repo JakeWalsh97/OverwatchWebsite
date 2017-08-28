@@ -1,0 +1,74 @@
+#about {
+    border-top: .4em solid white;
+    border-bottom: .4em solid white;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-bottom:10em;
+    background-image: url(../ana/images/overview.png);
+}
+
+#overviewGif {
+    margin-top:2em;
+    border:.10em solid white;
+}
+
+.intro {
+    color:white;
+    border:.10em solid white;
+    background-color: black;
+    padding:1em;
+}
+
+#portfolio {
+    border-top: .4em solid white;
+    border-bottom: .4em solid white;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-bottom:10em;
+    background-image: url(../ana/images/portfolio.jpg);
+}
+
+#abilities {
+    border-top: .4em solid white;
+    border-bottom: .4em solid white;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-bottom:10em;
+    background-image: url(../ana/images/abilities.jpg);
+}
+
+#footer {
+    border-bottom: .4em solid white;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-bottom:10em;
+    background-image: url(../ana/images/footer.gif);
+}
